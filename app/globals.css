@@ -74,3 +74,69 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+	font-family: 'BasementGrotesque-Black';
+	src: url('/fonts/Basement/BasementGrotesque-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BasementGrotesque-Display';
+	src: url('/fonts/Basement/BasementGrotesque-Display.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SpaceMono-Regular';
+	src: url('/fonts/Space/SpaceMono-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter-Regular';
+	src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neue-Montreal-Medium';
+	src: url('/fonts/Neue/Neue-Montreal-Medium.woff2') format('woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Neue-Montreal-Regular-400';
+	src: url('/fonts/Neue/Neue-Montreal-Regular-400.woff2') format('woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SpaceGrotesk-Medium';
+	src: url('/fonts/Grotesk/SpaceGrotesk-Medium.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roobert';
+	src: url('/fonts/Roobert/Roobert.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+.footer-img {
+  background: url('/hello3.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: -50% 50%;
+}

@@ -1,15 +1,23 @@
-import Image from "next/image";
+"use client"
 import { Fragment } from "react";
 import { Suspense } from "react";
 import { Footer } from "@/components/widgets/Footer";
+import React, { FC } from 'react';
+import { Hero } from "@/components/widgets/Hero";
+import { Client } from "@/components/widgets/Client";
 
-export default async function Home() {
+const Home = () => {
   return (
+    <>
     <Fragment>
       <Suspense>
-        <div>hello</div>
+        <Hero/>
+        <Client/>
         <Footer />
       </Suspense>
     </Fragment>
+    </>
   );
 }
+
+export default Home

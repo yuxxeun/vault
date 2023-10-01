@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwindcss screens;
 
 @layer base {
   ::selection {
@@ -114,13 +115,14 @@
 @font-face {
   font-family: "Neue-Montreal-Medium";
   src: url("/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Neue-Montreal-Regular-400";
   src: url("/fonts/Neue/Neue-Montreal-Regular-400.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @font-face {
@@ -141,7 +143,12 @@
 
 .footer-img {
   background: url("/hello3.jpg") no-repeat;
+  background-size: 80%;
+  background-position: 70% 350%;
+}
+
+.heroBg {
+  background: url('/img/bg.jpg') no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: -50% 50%;
+
 }

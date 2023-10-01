@@ -16,6 +16,21 @@ module.exports = {
       },
     },
     extend: {
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '10xl': ['7.2321rem', {
+          lineHeight: '6.5rem',
+          letterSpacing: '-0.03em',
+          fontWeight: '700',
+        }],
+        '12xl': ['8.6rem', {
+          lineHeight: '8rem',
+          letterSpacing: '-0.02em',
+          fontWeight: '900',
+        }],
+      },
       fontFamily: {
         basement: "BasementGrotesque-Black, sans-serif",
         display: "BasementGrotesque-Display, sans-serif",

@@ -142,13 +142,12 @@
 }
 
 .footer-img {
-  background: url("/hello3.jpg") no-repeat;
+  background: url("/img/hello3.jpg") no-repeat;
   background-size: 80%;
   background-position: 70% 350%;
 }
 
 .heroBg {
-  background: url('/img/bg.jpg') no-repeat;
+  background: url("/img/bg.jpg") no-repeat;
   background-size: cover;
-
 }

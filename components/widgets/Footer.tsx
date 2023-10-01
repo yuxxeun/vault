@@ -10,13 +10,14 @@ export const Footer = () => {
             <p>v 1.0.0.1</p>
           </div>
           <div className="tracking-normal whitespace-pre-wrap">
-            <p>basement — Sometimes size doesn&apos;t matter. we work for BIG & SMALL NON-stoppable visionarIES.</p>
+            <p>
+              basement — Sometimes size doesn&apos;t matter. we work for BIG &
+              SMALL NON-stoppable visionarIES.
+            </p>
           </div>
         </div>
         <div className="whitespace-nowrap hidden md:block">
-          <p className="">
-            &copy; 2023
-          </p>
+          <p className="">&copy; 2023</p>
         </div>
       </div>
 
